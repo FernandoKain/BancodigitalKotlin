@@ -4,6 +4,10 @@ class Pessoa {
 
     private set
 
+    constructor()
+
+    fun pessoaInfo() = "$nome e $cpf"
+
     inner class Endereco{
         var rua = "Rua teste"
     }

@@ -1,5 +1,5 @@
 class Pessoa {
-    var nome: String = "Jether"
+    var nome: String = "Fernando"
     var cpf: String = "123.123.123-24"
 
     private set
@@ -10,10 +10,10 @@ class Pessoa {
 }
 
 fun main(){
-    val jether = Pessoa()
+    val p1 = Pessoa()
 
-    print(jether.nome)
-    print(jether.cpf)
+    print(p1.nome)
+    print(p1.cpf)
 
-    print(jether.Endereco().rua)
+    print(p1.Endereco().rua)
 }

@@ -2,8 +2,10 @@ class Pessoa {
     var nome: String = "Jether"
     var cpf: String = "123.123.123-24"
 
+    private set
+
     inner class Endereco{
-        var rua: String = "Rua teste"
+        var rua = "Rua teste"
     }
 }
 

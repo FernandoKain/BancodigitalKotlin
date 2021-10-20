@@ -8,9 +8,6 @@ class Pessoa {
 
     fun pessoaInfo() = "$nome e $cpf"
 
-    inner class Endereco{
-        var rua = "Rua teste"
-    }
 }
 
 fun main(){
@@ -18,6 +15,4 @@ fun main(){
 
     print(p1.nome)
     print(p1.cpf)
-
-    print(p1.Endereco().rua)
 }
